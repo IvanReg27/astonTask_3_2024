@@ -8,6 +8,12 @@
   <name>astonTask_3_2024 Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+    <!--  Spring  -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-core</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
