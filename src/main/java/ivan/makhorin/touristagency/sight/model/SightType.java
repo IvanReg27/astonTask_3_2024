@@ -1,9 +1,9 @@
 package ivan.makhorin.touristagency.sight.model;
 
 public enum SightType {
-    CASTLE,
-    PARK,
+    LIGHTHOUSE,
+    STATUE,
     MUSEUM,
-    ARCHEOLOGICAL,
+    FORTRESS,
     RESERVATION
 }

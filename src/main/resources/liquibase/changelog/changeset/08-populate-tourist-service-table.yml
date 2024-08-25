@@ -15,7 +15,7 @@ databaseChangeLog:
                   value: Transfer
               - column:
                   name: description
-                  value: Наша компания предоставит Вам транспорт для путешествия.
+                  value: Наша компания предоставит вам транспорт для путешествия.
         - insert:
             tableName: tourist_service
             columns:
@@ -27,7 +27,7 @@ databaseChangeLog:
                   value: Guide
               - column:
                   name: description
-                  value: Наша компания предоставит Вам гида для путешествия.
+                  value: Наша компания предоставит вам гида для путешествия.
         - insert:
             tableName: tourist_service
             columns:
@@ -39,4 +39,4 @@ databaseChangeLog:
                   value: Insurance
               - column:
                   name: description
-                  value: Наша компания предоставит Вам страховку для путешествия.
+                  value: Наша компания предоставит вам страховку для путешествия.
