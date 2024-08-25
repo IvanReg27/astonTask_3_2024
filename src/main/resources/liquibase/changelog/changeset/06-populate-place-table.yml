@@ -1,0 +1,69 @@
+databaseChangeLog:
+  - changeSet:
+      id: 06-populate-place-table
+      author: Ivan Makhorin
+      context: main
+      changes:
+        - insert:
+            tableName: place
+            columns:
+              - column:
+                  name: id
+                  value: 1
+              - column:
+                  name: place_name
+                  value: Vladivostok
+              - column:
+                  name: population
+                  value: 591628
+              - column:
+                  name: metro
+                  value: false
+              - column:
+                  name: latitude
+                  value: 43.1332
+              - column:
+                  name: longitude
+                  value: 131.9113
+        - insert:
+            tableName: place
+            columns:
+              - column:
+                  name: id
+                  value: 2
+              - column:
+                  name: place_name
+                  value: Tbilisi
+              - column:
+                  name: population
+                  value: 1114000
+              - column:
+                  name: metro
+                  value: true
+              - column:
+                  name: latitude
+                  value: 41.6938
+              - column:
+                  name: longitude
+                  value: 44.8015
+        - insert:
+            tableName: place
+            columns:
+              - column:
+                  name: id
+                  value: 3
+              - column:
+                  name: place_name
+                  value: Saint Petersburg
+              - column:
+                  name: population
+                  value: 5597763
+              - column:
+                  name: metro
+                  value: true
+              - column:
+                  name: latitude
+                  value: 59.9311
+              - column:
+                  name: longitude
+                  value: 30.3609

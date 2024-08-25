@@ -1,0 +1,90 @@
+databaseChangeLog:
+  - changeSet:
+      id: 07-populate-sight-table
+      author: Ivan Makhorin
+      context: main
+      changes:
+        - insert:
+            tableName: sight
+            columns:
+              - column:
+                  name: id
+                  value: 1
+              - column:
+                  name: sight_name
+                  value: Tokarevsky lighthouse
+              - column:
+                  name: creation_date
+                  value: 1910-01-01
+              - column:
+                  name: description
+                  value: Действующий маяк во Владивостоке, туристическая и имиджевая достопримечательность. Расположен на южной точке кошки Токарёвского, обеспечивает проход судов в узости пролива Босфор Восточный в заливе Петра Великого Японского моря. Координаты маяка Токарёвского по морским лоциям.
+              - column:
+                  name: sight_type
+                  value: 0
+              - column:
+                  name: place_id
+                  value: 1
+        - insert:
+            tableName: sight
+            columns:
+              - column:
+                  name: id
+                  value: 2
+              - column:
+                  name: sight_name
+                  value: Narikala fortress
+              - column:
+                  name: creation_date
+                  value: 400-01-01
+              - column:
+                  name: description
+                  value: Крепостной комплекс различных эпох в Старом Тбилиси, на правом скалистом берегу Куры. Точное время основания крепости в Тбилиси неизвестно, но в IV веке она уже существовала и называлась Шурис-Цихе.
+              - column:
+                  name: sight_type
+                  value: 1
+              - column:
+                  name: place_id
+                  value: 2
+        - insert:
+            tableName: sight
+            columns:
+              - column:
+                  name: id
+                  value: 3
+              - column:
+                  name: sight_name
+                  value: The Grand Palace - Peterhof
+              - column:
+                  name: creation_date
+                  value: 1755-01-01
+              - column:
+                  name: description
+                  value: Основное здание дворцово - паркового ансамбля "Петергоф", расположенного в одноимённом городе на южном берегу Финского залива в Петродворцовом районе города федерального значения Санкт-Петербурга. Был практически полностью разрушен во время Второй мировой войны, в 1952 году восстановлен.
+              - column:
+                  name: sight_type
+                  value: 3
+              - column:
+                  name: place_id
+                  value: 3
+        - insert:
+            tableName: sight
+            columns:
+              - column:
+                  name: id
+                  value: 4
+              - column:
+                  name: sight_name
+                  value: Kazan Cathedral
+              - column:
+                  name: creation_date
+                  value: 1811-01-01
+              - column:
+                  name: description
+                  value: Один из крупнейших храмов г. Санкт-Петербурга. Построен на Невском проспекте в 1801—1811 годах архитектором Андреем Воронихиным в стиле русского классицизма для хранения чтимого списка чудотворной иконы Божией Матери Казанской.
+              - column:
+                  name: sight_type
+                  value: 0
+              - column:
+                  name: place_id
+                  value: 3
