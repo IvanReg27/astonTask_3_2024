@@ -10,27 +10,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f073fcef-1d3c-4413-8705-602f93b6079c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/feign/WeatherClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/sight/impl/SightServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/sight/impl/SightServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/sight/model/Sight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/sight/model/Sight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/sight/model/SightDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/sight/model/SightDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/weather/AdviceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/weather/WeatherService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/weather/impl/AdviceServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/weather/impl/WeatherServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/weather/model/Condition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/weather/model/Current.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/weather/model/Location.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/weather/model/WeatherData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/liquibase/changelog/changeset/07-populate-sight-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/liquibase/changelog/changeset/07-populate-sight-table.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ivan/makhorin/touristagency/AbstractCommonIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ivan/makhorin/touristagency/AbstractCommonIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ivan/makhorin/touristagency/place/PlaceMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ivan/makhorin/touristagency/place/PlaceMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/config/LiquibaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/config/LiquibaseConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/config/MVCDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/config/MVCDispatcherServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/place/PlaceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/place/PlaceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/place/PlaceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/place/PlaceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/place/PlaceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/place/PlaceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/place/PlaceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/place/PlaceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/place/impl/PlaceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/place/impl/PlaceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/place/model/Place.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/place/model/Place.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/place/model/PlaceDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/place/model/PlaceDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/sight/SightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/sight/SightController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/sight/SightMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/sight/SightMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/sight/SightRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/sight/SightRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/sight/SightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/sight/SightService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/sight/impl/SightServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/sight/impl/SightServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/sight/model/Sight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/sight/model/Sight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/sight/model/SightDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/sight/model/SightDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/sight/model/SightType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/sight/model/SightType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/touristservice/TouristServiceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/touristservice/TouristServiceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/touristservice/TouristServiceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/touristservice/TouristServiceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/touristservice/model/TouristService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/touristservice/model/TouristService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ivan/makhorin/touristagency/touristservice/model/TouristServiceDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ivan/makhorin/travelagency/touristservice/model/TouristServiceDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ivan/makhorin/touristagency/AbstractCommonIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ivan/makhorin/travelagency/AbstractCommonIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ivan/makhorin/touristagency/place/PlaceControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ivan/makhorin/travelagency/place/PlaceControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ivan/makhorin/touristagency/place/PlaceMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ivan/makhorin/travelagency/place/PlaceMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ivan/makhorin/touristagency/sight/SightControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ivan/makhorin/travelagency/sight/SightControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ivan/makhorin/touristagency/sight/impl/SightServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ivan/makhorin/travelagency/sight/impl/SightServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +224,7 @@
       <workItem from="1724172560359" duration="501000" />
       <workItem from="1724528555918" duration="6648000" />
       <workItem from="1724585396999" duration="16100000" />
-      <workItem from="1724780967869" duration="5476000" />
+      <workItem from="1724780967869" duration="6967000" />
     </task>
     <servers />
   </component>

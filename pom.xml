@@ -5,7 +5,7 @@
   <artifactId>astonTask_3_2024</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
-  <name>touristagency Maven Webapp</name>
+  <name>travelagency Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -218,7 +218,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>touristagency</finalName>
+    <finalName>travelagency</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
