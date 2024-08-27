@@ -5,9 +5,6 @@ import ivan.makhorin.touristagency.sight.SightRepository;
 import ivan.makhorin.touristagency.sight.SightService;
 import ivan.makhorin.touristagency.sight.model.Sight;
 import ivan.makhorin.touristagency.sight.model.SightDTO;
-import ivan.makhorin.touristagency.weather.AdviceService;
-import ivan.makhorin.touristagency.weather.WeatherService;
-import ivan.makhorin.touristagency.weather.model.WeatherData;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -23,8 +20,6 @@ import java.util.List;
 public class SightServiceImpl implements SightService {
 
     private final SightRepository sightRepository;
-    private final WeatherService weatherService;
-    private final AdviceService adviceService;
     private final SightMapper sightMapper = Mappers.getMapper(SightMapper.class);
 
     @Override
@@ -44,22 +39,12 @@ public class SightServiceImpl implements SightService {
     public List<SightDTO> getAllByPlaceName(String placeName) {
         var sights = sightRepository.findByPlaceName(placeName);
         if (!sights.isEmpty()) {
-            final var weatherData = addWeatherData(sights);
-            final var advice = adviceService.getAdvice(weatherData);
-            sights.forEach(sight -> sight.setWeatherData(weatherData));
             return sights.stream()
                     .map(sightMapper::toSightDTO)
-                    .map(sightDTO -> sightDTO.withAdvice(advice))
+
                     .toList();
         }
         return List.of();
-    }
-
-    private WeatherData addWeatherData(List<Sight> sights) {
-        var place = sights.get(0).getPlace();
-        var latitude = place.getLatitude();
-        var longitude = place.getLongitude();
-        return weatherService.getWeatherData(latitude, longitude);
     }
 
     @Override
