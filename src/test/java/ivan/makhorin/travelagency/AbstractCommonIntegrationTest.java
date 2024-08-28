@@ -48,7 +48,7 @@ public abstract class AbstractCommonIntegrationTest {
     protected final PlaceDTO newPlaceDTO = new PlaceDTO(
             place.getId(), place.getPlaceName(), place.getPopulation() + 100, place.getMetroAvailable());
     protected final PlaceDTO newPlaceDTO2 = new PlaceDTO(
-            1L, "Moscow", place.getPopulation() + 123, place.getMetroAvailable());
+            1L, "Saint Petersburg", place.getPopulation() + 123, place.getMetroAvailable());
     protected final SightDTO newSightDTO = new SightDTO(sight.getId(), sight.getSightName(), SightType.PARK.name(), "1783-01-01T00:00:00", sight.getDescription(), placeDTO , null);
 
     @Container
