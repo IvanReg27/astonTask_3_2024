@@ -26,12 +26,6 @@ databaseChangeLog:
                   name: sight_id
                   type: BIGINT
               - column:
-                  name: latitude
-                  type: varchar(20)
-              - column:
-                  name: longitude
-                  type: varchar(20)
-              - column:
                   name: metro
                   type: bool
                   constraints:

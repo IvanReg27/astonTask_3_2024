@@ -18,7 +18,6 @@ import org.thymeleaf.spring6.view.ThymeleafViewResolver;
 @EnableWebMvc
 @Configuration
 @EnableTransactionManagement
-@PropertySource("classpath:feign.properties")
 @ComponentScan("ivan.makhorin.travelagency")
 @EnableJpaRepositories(value = "ivan.makhorin.travelagency", entityManagerFactoryRef = "entityManagerFactoryBean")
 public class SpringConfig implements WebMvcConfigurer {

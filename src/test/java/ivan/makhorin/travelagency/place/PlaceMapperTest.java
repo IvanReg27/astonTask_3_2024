@@ -17,7 +17,7 @@ class PlaceMapperTest {
     @Test
     void toPlace() {
         var placeDTO = new PlaceDTO(1L, "Washington", 123123L, true);
-        var expected = new Place(placeDTO.id(), placeDTO.placeName(), placeDTO.population(), List.of(), placeDTO.metroAvailable(), null, null);
+        var expected = new Place(placeDTO.id(), placeDTO.placeName(), placeDTO.population(), List.of(), placeDTO.metroAvailable());
         var result = placeMapper.toPlace(placeDTO);
         assertEquals(expected, result);
     }
@@ -25,7 +25,7 @@ class PlaceMapperTest {
     @Test
     void toPlaceDTO() {
         var expected = new PlaceDTO(1L, "Washington", 123123L, true);
-        var place = new Place(expected.id(), expected.placeName(), expected.population(), List.of(), expected.metroAvailable(), null, null);
+        var place = new Place(expected.id(), expected.placeName(), expected.population(), List.of(), expected.metroAvailable());
         var result = placeMapper.toPlaceDTO(place);
         assertEquals(expected, result);
     }

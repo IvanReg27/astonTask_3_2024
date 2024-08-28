@@ -41,10 +41,4 @@ public class Place {
 
     @Column(name = "metro")
     private Boolean metroAvailable;
-
-    @Column(name = "latitude")
-    private String latitude;
-
-    @Column(name = "longitude")
-    private String longitude;
 }

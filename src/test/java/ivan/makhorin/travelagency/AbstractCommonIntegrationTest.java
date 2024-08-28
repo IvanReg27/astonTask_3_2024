@@ -39,8 +39,6 @@ public abstract class AbstractCommonIntegrationTest {
             .placeName("Vladivostok")
             .population(123123123L)
             .metroAvailable(true)
-            .longitude("131.9110")
-            .latitude("43.1332")
             .sights(List.of(sight))
             .build();
 

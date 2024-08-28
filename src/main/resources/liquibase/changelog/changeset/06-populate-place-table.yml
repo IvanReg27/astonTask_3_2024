@@ -19,12 +19,6 @@ databaseChangeLog:
               - column:
                   name: metro
                   value: false
-              - column:
-                  name: latitude
-                  value: 43.1332
-              - column:
-                  name: longitude
-                  value: 131.9113
         - insert:
             tableName: place
             columns:
@@ -40,12 +34,6 @@ databaseChangeLog:
               - column:
                   name: metro
                   value: true
-              - column:
-                  name: latitude
-                  value: 41.6938
-              - column:
-                  name: longitude
-                  value: 44.8015
         - insert:
             tableName: place
             columns:
@@ -61,9 +49,3 @@ databaseChangeLog:
               - column:
                   name: metro
                   value: true
-              - column:
-                  name: latitude
-                  value: 59.9311
-              - column:
-                  name: longitude
-                  value: 30.3609
