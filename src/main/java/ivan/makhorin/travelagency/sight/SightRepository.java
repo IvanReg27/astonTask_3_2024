@@ -13,15 +13,15 @@ import java.util.List;
 @Repository
 @Transactional
 public interface SightRepository extends JpaRepository<Sight, Long> {
-    @Query("select s from Sight s where s.place.placeName = :placeName")
+    @Query("SELECT s FROM Sight s WHERE s.place.placeName = :placeName")
     List<Sight> findByPlaceName(@Param("placeName") String placeName);
 
     @Modifying
-    @Query("update Sight s set s.description = :description where s.sightName = :sightName")
+    @Query("UPDATE Sight s SET s.description = :description WHERE s.sightName = :sightName")
     void updateSightDescription(@Param("sightName") String sightName, @Param("description") String description);
 
     @Modifying
-    @Query("delete Sight s where s.sightName = :sightName")
+    @Query("DELETE FROM Sight s WHERE s.sightName = :sightName")
     void deleteBySightName(@Param("sightName") String sightName);
 
     List<Sight> findAllBySightNameOrderBySightTypeAsc(String sightName);
