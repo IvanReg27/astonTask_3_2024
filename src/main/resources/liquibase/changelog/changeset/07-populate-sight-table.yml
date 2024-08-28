@@ -63,7 +63,7 @@ databaseChangeLog:
                   value: Основное здание дворцово - паркового ансамбля "Петергоф", расположенного в одноимённом городе на южном берегу Финского залива.
               - column:
                   name: sight_type
-                  value: 3
+                  value: 2
               - column:
                   name: place_id
                   value: 3
@@ -84,7 +84,7 @@ databaseChangeLog:
                   value: Один из крупнейших храмов г. Санкт-Петербурга. Построен на Невском проспекте в 1801—1811 годах.
               - column:
                   name: sight_type
-                  value: 0
+                  value: 3
               - column:
                   name: place_id
                   value: 3

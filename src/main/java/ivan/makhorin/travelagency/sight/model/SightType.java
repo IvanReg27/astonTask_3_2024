@@ -4,5 +4,6 @@ public enum SightType {
     LIGHTHOUSE,
     FORTRESS,
     PARK,
+    CATHEDRAL,
     RESERVATION
 }
