@@ -15,19 +15,20 @@ import java.util.List;
 
 @Slf4j
 @Service
-@Transactional
 @RequiredArgsConstructor
 public class SightServiceImpl implements SightService {
 
     private final SightRepository sightRepository;
     private final SightMapper sightMapper = Mappers.getMapper(SightMapper.class);
 
+    @Transactional
     @Override
     public SightDTO save(SightDTO sightDTO) {
         var sight = sightMapper.toSight(sightDTO);
         return sightMapper.toSightDTO(sightRepository.save(sight));
     }
 
+    @Transactional
     @Override
     public List<SightDTO> getAll() {
         return sightRepository.findAll().stream()
@@ -35,6 +36,7 @@ public class SightServiceImpl implements SightService {
                 .toList();
     }
 
+    @Transactional
     @Override
     public List<SightDTO> getAllByPlaceName(String placeName) {
         var sights = sightRepository.findByPlaceName(placeName);
@@ -47,16 +49,19 @@ public class SightServiceImpl implements SightService {
         return List.of();
     }
 
+    @Transactional
     @Override
     public void updateSightDescription(SightDTO sightDTO) {
         sightRepository.updateSightDescription(sightDTO.sightName(), sightDTO.description());
     }
 
+    @Transactional
     @Override
     public void deleteBySightName(String sightName) {
         sightRepository.deleteBySightName(sightName);
     }
 
+    @Transactional
     @Override
     public List<SightDTO> getWithOptions(String sightName, Boolean sorted) {
         var sightNameIsValid = sightName != null && !sightName.isEmpty() && !sightName.isBlank();
