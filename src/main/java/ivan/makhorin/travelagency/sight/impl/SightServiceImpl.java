@@ -15,6 +15,7 @@ import java.util.List;
 
 @Slf4j
 @Service
+//@Transactional
 @RequiredArgsConstructor
 public class SightServiceImpl implements SightService {
 
