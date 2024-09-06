@@ -15,7 +15,7 @@ services:
     image: postgres:latest
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: admin
+      POSTGRES_PASSWORD: xxxxx
     ports:
       - "5432:5432"
     volumes:
